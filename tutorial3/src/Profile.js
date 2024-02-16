@@ -1,12 +1,12 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 
-function Profile() {
-    const location = useLocation();
-    const queryParams = new URLSearchParams(location.search);
-    const firstname = queryParams.get('firstname') || 'N/A';
-    const lastname = queryParams.get('lastname') || 'N/A';
-    const email = queryParams.get('email') || 'N/A';
+function Profile() {    
+    const url = useLocation();
+    const params = new URLSearchParams(url.search);
+    const firstname = params.get('firstname') || 'N/A';
+    const lastname = params.get('lastname') || 'N/A';
+    const email = params.get('email') || 'N/A';
 
     return (
         <div>
