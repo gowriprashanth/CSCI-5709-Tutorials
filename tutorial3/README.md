@@ -137,7 +137,7 @@ const newErrors = {};
 ```
 The code above was created by adapting the code in [stackoverflow](https://stackoverflow.com/questions/17401624/change-action-attribute-using-javascript-isnt-sending-to-php) as shown below:
 
-````
+```
 
 function checkInput(){
 var regexUser = /^(?=.{1,20}$)[a-zA-Z0-9]+$/;//all letters ad number and size between 1-20
@@ -145,7 +145,7 @@ var regextPwd = /^(?=.{8,8}$)(?=.*[a-zA-Z])(?=.*\d)(?=.*[!#$%&? "]).*$/; //Passw
                                                                          // at least one number, one letter and one
                                                                          // unique character such as !#$%&?
 //Email regex
-var regexMail = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+var regexMail = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.0-9]{1,3}\.[0-9]{1,3}\)|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 var errorArr = new Array(0,0,0,0,0);
 
@@ -154,24 +154,21 @@ document.getElementById("register").action = "databasebuilder.php";}
 ````
 *Lines 53*  
 
-````
+```
 navigate(`/profile?firstname=${formData.firstname}&lastname=${formData.lastname}&email=${formData.email}`);
 
 ````
 The code above was created by adapting the code in [ui](https://ui.dev/react-router-programmatically-navigate) as shown below:
 
-````
-import { useNavigate } from 'react-router-dom
+```
 
-function Register () {
-  const navigate = useNavigate()
+  <!-- const navigate = useNavigate()
 
   return (
     <div>
       <h1>Register</h1>
       <Form afterSubmit={() => navigate('/dashboard')} />
     </div>
-  )
-}
+  ) -->
 
-````
+```
