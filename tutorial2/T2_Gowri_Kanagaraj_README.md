@@ -1,4 +1,4 @@
-# Tutorial2
+# Tutorial2 Individual
 * *Name*:Gowri Prashanth Kanagaraj
 * *Date Created*: 29 Jan 2024
 * *Last Modification Date*: 29 Jan 2024
