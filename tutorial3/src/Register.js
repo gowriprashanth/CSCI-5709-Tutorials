@@ -42,8 +42,8 @@ function Register() {
         if (!formData.email.match(/^\S+@\S+\.\S+$/)) {
             newErrors.email = 'Invalid email format';
         }
-        if (formData.password.length < 8) {
-            newErrors.password = 'Password should be at least 8 characters';
+        if (!formData.password.match(/(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*])(?=.{8,})/)) {
+            newErrors.password = 'Password should contain alpha-numeric and special characters and Minimum limit is 8 characters. at least 8 characters';
         }
         if (formData.password !== formData.confPassword) {
             newErrors.confPassword = 'Passwords do not match';
