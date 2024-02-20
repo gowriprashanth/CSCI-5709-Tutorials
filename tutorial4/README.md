@@ -4,7 +4,7 @@
 * *Last Modification Date*: 19 Feb 2024
 * *GitLab - Tutorials URL*: <https://git.cs.dal.ca/kanagaraj/csci-5709-tutorials>
 * *GitLab - Tutorial 3 URL*:<https://git.cs.dal.ca/kanagaraj/csci-5709-tutorials/-/tree/main/tutorial4>
- * *Deployment*: 
+ * *Deployment*: https://main--quiet-genie-976405.netlify.app/
  * *GitLab - Assignments URL*: <https://git.cs.dal.ca/kanagaraj/csci-5709-assignments>
 
  ## Sources Used
