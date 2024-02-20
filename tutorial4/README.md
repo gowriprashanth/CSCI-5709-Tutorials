@@ -71,7 +71,7 @@ The code above was created by adapting the code in [stackoverflow](https://stack
 item.name.toLowerCase().includes(this.state.filter.toLowerCase()))
 ```
 
-### File Name - Register.js
+### File Name - LoginPage.js
 
 *Lines 21-38*
 
