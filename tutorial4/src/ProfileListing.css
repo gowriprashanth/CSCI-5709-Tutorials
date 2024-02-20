@@ -1,0 +1,49 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-container {
+  margin-bottom: 20px;
+}
+
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto; 
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#search {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.profile-card {
+  width: calc(33.33% - 20px); 
+  height: 150px; 
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
