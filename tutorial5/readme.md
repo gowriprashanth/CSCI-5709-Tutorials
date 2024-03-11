@@ -4,7 +4,7 @@
 * *Last Modification Date*: 11 Mar 2024
 * *GitLab - Tutorials URL*: <https://git.cs.dal.ca/kanagaraj/csci-5709-tutorials>
 * *GitLab - Tutorial 5 URL*:<https://git.cs.dal.ca/kanagaraj/csci-5709-tutorials/-/tree/main/tutorial5>
- * *Deployment*: 
+ * *Deployment*: https://csci-5709-tutorials-dy05.onrender.com
  * *GitLab - Assignments URL*: <https://git.cs.dal.ca/kanagaraj/csci-5709-assignments>
 
  ## Sources Used
